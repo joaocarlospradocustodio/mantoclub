@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manto Club — Camisas de Futebol</title>
+    <meta name="description"
+        content="Loja esportiva Manto Club — camisas de futebol oficiais e retrô. Preto e dourado, estilo esportivo." />
+    <link rel="stylesheet" href="./camisa.css">
+    <link rel="javascript" href="./java.js>"
+</head>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">
+                <img src="C:\Users\JOCA\Documents\Java\Site de Camisa\imagens\logo.jpeg" alt="Logo Manto Club" />
+            </div>
+            <div>
+                <h1>Manto Club</h1>
+                <div class="small muted">Camisas de Futebol</div>
+            </div>
+        </div>
+        <nav>
+            <a class="btn" href="#products">Loja</a>
+            <a class="btn" href="#sobre">Sobre</a>
+            <a class="btn" href="#contato">Contato</a>
+            <a id="instagramBtn" class="btn" target="_blank" href="https://www.instagram.com/manto_cllub/">Instagram</a>
+        </nav>
+    </header>
+
+
+    <main style="padding:40px;text-align:center">
+        <h2>Bem-vindo à Manto Club</h2>
+        <p>Loja Especializada em camisas de futebol oficiais e retrô. </p>
+    </main>
+  </header>
+
+  <div class="wrap">
+    <section class="filters">
+      <div class="search" style="min-width:px"><input id="searchInput" placeholder="Buscar por time ou modelo..."/></div>
+      <div class="select">
+        <select id="teamFilter" class="pill">
+          <option value="">Todos os times</option>
+        </select>
+      </div>
+      <div class="range">
+        <div class="pill">Preço até <span id="priceVal">R$499</span></div>
+        <input id="priceRange" type="range" min="50" max="500" value="500" style="width:160px" />
+      </div>
+      <div class="sizes">
+        <div class="muted">Tamanho:</div>
+        <div id="sizeFilters" style="width:160px;text-align:center"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="productsCount" style="margin-bottom:8px" class="muted">0 produtos</div>
+      <div class="grid" id="productsGrid"></div>
+      <div id="emptyState" class="empty" style="display:none;margin-top:12px">Nenhum produto encontrado.</div>
+    </section>
+  </div>
+
+  <!-- Modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="box">
+      <div>
+        <img id="modalMainImg" src="" alt="Produto" style="width:100%;height:100%;object-fit:cover;border-radius:8px" />
+        <div class="thumbs" id="modalThumbs"></div>
+      </div>
+      <div>
+        <h2 id="modalTitle"></h2>
+        <div class="muted" id="modalTeam"></div>
+        <div style="margin-top:8px"><strong class="price" id="modalPrice"></strong></div>
+        <p id="modalDesc" class="muted" style="margin-top:10px"></p>
+        <div style="margin-top:10px">
+          <div class="muted">Tamanhos disponíveis</div>
+          <div id="modalSizes" style="display:flex;gap:8px;margin-top:6px"></div>
+        </div>
+        <div style="margin-top:18px;display:flex;gap:8px">
+          <button id="buyWhatsapp" class="btn primary">Comprar no WhatsApp</button>
+          <button id="closeModal" class="btn">Fechar</button>
+        <script src="java.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+</body>
+
+</html>
