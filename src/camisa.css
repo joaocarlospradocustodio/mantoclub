@@ -81,7 +81,6 @@
              flex-wrap: wrap;
              align-items: center;
              margin-bottom: 18px
-            
          }
 
          .search {
@@ -171,7 +170,8 @@
          .btn.primary {
              background: var(--gold);
              color: #070707;
-             border: none
+             border: none;  
+             text-align: center;
          }
 
 
@@ -234,75 +234,111 @@
                  height: 180px
              }
          }
-             /* Rodapé */
-    footer {
-      background-color: #0b0b0b;
-      color: #d4af37;
-      padding: 40px 20px;
-      font-family: "Inter", sans-serif;
-      border-top: 1px solid rgba(212,175,55,0.2);
-      margin-top: 60px;
-    }
-    .footer-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 40px;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding-top: 20px;
-    }
-    .footer-column h3 {
-      font-size: 16px;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-      color: var(--gold);
-    }
-    .footer-column ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .footer-column ul li {
-      margin: 6px 0;
-    }
-    .footer-column ul li a {
-      color: #bdb6a8;
-      text-decoration: none;
-      font-size: 14px;
-      transition: color 0.3s;
-    }
-    .footer-column ul li a:hover {
-      color: var(--gold);
-    }
-    .social-icons {
-      display: flex;
-      gap: 10px;
-      margin: 10px 0;
-    }
-    .social-icons .icon {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background-color: rgba(212,175,55,0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background 0.3s;
-    }
-    .social-icons .icon img {
-      width: 18px;
-      height: 18px;
-      filter: invert(74%) sepia(68%) saturate(350%) hue-rotate(20deg);
-    }
-    .social-icons .icon:hover {
-      background-color: var(--gold);
-    }
-    .footer-bottom {
-      text-align: center;
-      font-size: 13px;
-      color: #8c8c8c;
-      margin-top: 40px;
-      border-top: 1px solid rgba(255,255,255,0.05);
-      padding-top: 15px;
-    }
+
+         /* Rodapé */
+         footer {
+             background-color: #0b0b0b;
+             color: #d4af37;
+             padding: 40px 20px;
+             font-family: "Inter", sans-serif;
+             border-top: 1px solid rgba(212, 175, 55, 0.2);
+             margin-top: 60px;
+         }
+
+         .footer-container {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+             gap: 40px;
+             max-width: 1200px;
+             margin: 0 auto;
+             padding-top: 20px;
+         }
+
+         .footer-column h3 {
+             font-size: 16px;
+             text-transform: uppercase;
+             margin-bottom: 10px;
+             color: var(--gold);
+         }
+
+         .footer-column ul {
+             list-style: none;
+             padding: 0;
+             margin: 0;
+         }
+
+         .footer-column ul li {
+             margin: 6px 0;
+         }
+
+         .footer-column ul li a {
+             color: #bdb6a8;
+             text-decoration: none;
+             font-size: 14px;
+             transition: color 0.3s;
+         }
+
+         .footer-column ul li a:hover {
+             color: var(--gold);
+         }
+
+         .social-icons {
+             display: flex;
+             gap: 10px;
+             margin: 10px 0;
+         }
+
+         .social-icons .icon {
+             width: 32px;
+             height: 32px;
+             border-radius: 50%;
+             background-color: rgba(212, 175, 55, 0.1);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             transition: background 0.3s;
+         }
+
+         .social-icons .icon img {
+             width: 18px;
+             height: 18px;
+             filter: invert(74%) sepia(68%) saturate(350%) hue-rotate(20deg);
+         }
+
+         .social-icons .icon:hover {
+             background-color: var(--gold);
+         }
+
+         .footer-bottom {
+             text-align: center;
+             font-size: 13px;
+             color: #8c8c8c;
+             margin-top: 40px;
+             border-top: 1px solid rgba(255, 255, 255, 0.05);
+             padding-top: 15px;
+         }
+         /*sobre*/
+         .sobre {
+             background: linear-gradient(180deg, #0b0b0b 0%, #121212 100%);
+             color: #fff;
+             padding: 80px 20px;
+             text-align: center;
+         }
+
+         .sobre-container {
+             display: flex;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             gap: 60px;
+             max-width: 1200px;
+             margin: 0 auto;
+         }
+         .sobre-imagem img {
+             width: 56px;
+             height: 56px;
+             border-radius: 12px;
+             object-fit: contain;
+             background: transparent
+         }
