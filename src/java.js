@@ -4,7 +4,7 @@ const CONFIG = { phone: '+55S+5567991829929', storeName: 'Manto Club', currency:
 // Produtos de exemplo (imagens genéricas pra modelo). Substitua conforme necessário.
 const PRODUCTS = [
     { id: 1, title: 'Camisa Seleção Brasileita 2025', team: 'Seleção', price: 120.00, imgs: ['https://acdn-us.mitiendanube.com/stores/001/402/723/products/79805462df-22e9b823b924ea775f17399068160035-1024-1024.webp'], desc: 'Camisa Seleção Brasileira 2025, modelo Jogador', sizes: ['P', 'M', 'G', 'GG'] },
-    { id: 2, title: 'Camisa Oficial - Time A', team: 'Time A', price: 249.9, imgs: ['https://images.unsplash.com/photo-1520975913766-4f6fbf8a2f39?auto=format&fit=crop&w=900&q=60'], desc: 'Camisa oficial de jogo', sizes: ['P', 'M', 'G'] },
+    { id: 2, title: 'Camisa Flamengo 2025', team: 'Brasileirão', price: 120.00, imgs: ['https://github.com/joaocarlospradocustodio/mantoclub/blob/main/src/imagens/Flamengo/flamengo.webp?raw=true'], desc: 'Camisa Flamengo 2025 - Primeiro Uniforme', sizes: ['P', 'M', 'G','GG'] },
     { id: 3, title: 'Camisa Treino - Preto & Dourado', team: 'Manto FC', price: 129.9, imgs: ['https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=60'], desc: 'Leve e respirável para treino', sizes: ['M', 'G', 'GG'] },
     { id: 4, title: 'Camisa Edição Limitada', team: 'Clássicos', price: 399.9, imgs: ['https://images.unsplash.com/photo-1517927033932-b3d18e8a6f35?auto=format&fit=crop&w=900&q=60'], desc: 'Peça numerada. Estoque limitado', sizes: ['M', 'G'] },
     { id: 5, title: 'Camisa Retrô - Time B', team: 'Time B', price: 179.9, imgs: ['https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=900&q=60'], desc: 'Design retrô clássico', sizes: ['P', 'M', 'G', 'GG'] },
