@@ -5,7 +5,7 @@ const CONFIG = { phone: '+55S+5567991829929', storeName: 'Manto Club', currency:
 const PRODUCTS = [
     { id: 1, title: 'Camisa Seleção Brasileita 2025', team: 'Seleção', price: 120.00, imgs: ['https://acdn-us.mitiendanube.com/stores/001/402/723/products/79805462df-22e9b823b924ea775f17399068160035-1024-1024.webp'], desc: 'Camisa Seleção Brasileira 2025, modelo Jogador', sizes: ['P', 'M', 'G', 'GG'] },
     { id: 2, title: 'Camisa Flamengo 2025', team: 'Brasileirão', price: 120.00, imgs: ['https://github.com/joaocarlospradocustodio/mantoclub/blob/main/src/imagens/Flamengo/flamengo.webp?raw=true'], desc: 'Camisa Flamengo 2025 - Primeiro Uniforme', sizes: ['P', 'M', 'G','GG'] },
-    { id: 3, title: 'Camisa Treino - Preto & Dourado', team: 'Manto FC', price: 129.9, imgs: ['https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=60'], desc: 'Leve e respirável para treino', sizes: ['M', 'G', 'GG'] },
+    { id: 3, title: 'Camisa Real Madrid 16/17', team: 'LaLiga', price: 180.00, imgs: ['https://github.com/joaocarlospradocustodio/mantoclub/blob/main/src/imagens/Real%20Madrid%2016-17/realmadrid.webp?raw=true'], desc: 'Camisa Real Madrid 16/17', sizes: ['p','M', 'G', 'GG'] },
     { id: 4, title: 'Camisa Edição Limitada', team: 'Clássicos', price: 399.9, imgs: ['https://images.unsplash.com/photo-1517927033932-b3d18e8a6f35?auto=format&fit=crop&w=900&q=60'], desc: 'Peça numerada. Estoque limitado', sizes: ['M', 'G'] },
     { id: 5, title: 'Camisa Retrô - Time B', team: 'Time B', price: 179.9, imgs: ['https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=900&q=60'], desc: 'Design retrô clássico', sizes: ['P', 'M', 'G', 'GG'] },
     { id: 6, title: 'Camisa Torcedor - Time C', team: 'Time C', price: 149.9, imgs: ['https://images.unsplash.com/photo-1520975891234-1c1e3e6b1d3f?auto=format&fit=crop&w=900&q=60'], desc: 'Perfeita pra passeios e jogos', sizes: ['P', 'M', 'G'] },
@@ -123,3 +123,14 @@ render()
 
 // fallback for images
 document.querySelectorAll('img').forEach(img => { img.onerror = () => { img.src = 'https://via.placeholder.com/800x600/0b0b0b/ffffff?text=Manto+Club' } })
+
+//FAQ
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll(".faq").forEach(item => {
+        item.addEventListener("click", () => {
+          const p = item.querySelector("p");
+          p.style.display = p.style.display === "block" ? "none" : "block";
+        });
+      });
+    });
+ 
